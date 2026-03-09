@@ -17,7 +17,7 @@
       <button type="button" onclick="openAboutMe()">
         <h5>MavisDaemon</h5>
       </button>
-      <!-- <div>
+      <!-- <div id="instruction">
           <img src="icons/Arrow 1.svg" alt="arrow up" />
           <p class="cap">About me</p>
         </div> -->
@@ -27,29 +27,70 @@
       <section class="hero">
         <h1>Hi, Welcome to my website</h1>
       </section>
-      <!-- <section class="project_list">
-        <search>
-          <div class="Seach_bar">
-            <div class="search_input">
-              <img src="/icons/Search icon.svg" alt="search icon" />
-              <input type="search" placeholder="Search..." />
-            </div>
-            <button type="button" id="filter_button" onclick="openFilterList()">
-              <img src="/icons/Filter list icon.svg" alt="filter icon" />
-              <p>All</p>
-              <img
-                src="/icons/Arrow drop down icon.svg"
-                alt="arrow drop down icon"
-              />
-            </button>
+
+      <search>
+        <div class="search_bar">
+          <div class="search_input">
+            <img src="/icons/Search icon.svg" alt="search icon" />
+            <input type="search" placeholder="Search..." />
           </div>
-          <ul class="Project_list">
-            <li>
-              <a href="https://mavis-daemon.github.io/hydrocivik">Hydrocivik</a>
-            </li>
-          </ul>
-        </search>
-      </section> -->
+          <button type="button" id="filter_button" onclick="openFilterList()">
+            <img src="/icons/Filter list icon.svg" alt="filter icon" />
+            All
+            <img
+              src="/icons/Arrow drop down icon.svg"
+              alt="arrow drop down icon"
+            />
+          </button>
+        </div>
+        <ul data-projects class="project_list">
+          <li data-project id="Hydrocivik">
+            <div class="card">
+              <div class="front">
+                <img
+                  src="https://res.cloudinary.com/dpzwk2l36/image/upload/v1773071903/hydrocivik_site_placeholder_whym0o.webp"
+                  alt="hydrocivik's site thumbnail"
+                  class="card_image"
+                />
+                <div class="pin">
+                  <img src="icons/pin icon.svg" alt="pin icon" />
+                </div>
+              </div>
+              <div class="back">
+                <div>
+                  <section>
+                    <h5>Hydrocivik</h5>
+                    <p class="small">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Cum enim, molestias fugiat, necessitatibus dolorum impedit
+                      fugit reprehenderit, soluta molestiae sapiente commodi
+                      dolorem repellendus. Eum architecto natus ut quo
+                      consectetur vitae?
+                    </p>
+                  </section>
+                  <div>
+                    <ul class="tags">
+                      <li class="tag">Website</li>
+                      <li class="tag">UX/UI</li>
+                      <!-- <li class="tag">Music</li>
+                    <li class="tag">Portfolio</li> -->
+                      <li>
+                        <button class="tag_button" type="button">+2</button>
+                      </li>
+                    </ul>
+                    <a href="https://mavis-daemon.github.io/hydrocivik">
+                      <img
+                        src="icons/arrow forward icon.svg"
+                        alt="arrow icon"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </search>
     </main>
     <div class="footer_placeholder"></div>
     <footer>
