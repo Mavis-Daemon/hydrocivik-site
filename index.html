@@ -14,15 +14,13 @@
   </head>
   <body>
     <header>
-      <section class="top_bar">
-        <button type="button" onclick="openAboutMe()">
-          <h5>MavisDaemon</h5>
-        </button>
-        <!-- <div>
+      <button type="button" onclick="openAboutMe()">
+        <h5>MavisDaemon</h5>
+      </button>
+      <!-- <div>
           <img src="icons/Arrow 1.svg" alt="arrow up" />
           <p class="cap">About me</p>
         </div> -->
-      </section>
     </header>
 
     <main>
@@ -53,15 +51,17 @@
         </search>
       </section> -->
     </main>
-
+    <div class="footer_placeholder"></div>
     <footer>
       <div class="upper_footer">
         <section>
+          <h4>Navigation</h4>
           <nav>
-            <h4>navigation</h4>
             <ul>
               <li>
-                <p>back to top</p>
+                <a href="#">
+                  <p>Back to top</p>
+                </a>
               </li>
               <li>
                 <p>About me</p>
@@ -71,23 +71,50 @@
         </section>
         <div class="divider"></div>
         <section class="time_loc">
-          <time datetime="">
-            <p class="time">11:30</p>
-            <p class="utc">(utc +1)</p>
-          </time>
-          <p>Warsaw, Poland</p>
+          <h4>Time & Location</h4>
+          <div>
+            <time datetime="">
+              <p class="time">11:30</p>
+              <p class="utc">(UTC +1)</p>
+            </time>
+            <p>Warsaw, Poland</p>
+          </div>
         </section>
         <div class="divider"></div>
         <section>
           <h4>Contact me</h4>
+          <p class="small">tong.quocviet1234@gmail.com</p>
           <ul>
             <li>
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
-              <img src="" alt="" />
+              <a href="https://www.youtube.com/@Hydrocivik" target="_blank"
+                ><img src="/icons/youtube icon.svg" alt="Youtube icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/mavis_daemon/" target="_blank">
+                <img src="/icons/instagram icon.svg" alt="Instagram icon" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.facebook.com/viet.tongquoc.9843/"
+                target="_blank"
+              >
+                <img src="/icons/facebook icon.svg" alt="Facebook icon" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://bsky.app/profile/mavisdaemon.bsky.social"
+                target="_blank"
+              >
+                <img src="/icons/bluesky icon.svg" alt="Bluesky icon" />
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Mavis-Daemon" target="_blank"
+                ><img src="/icons/github icon.svg" alt="Github icon"
+              /></a>
             </li>
           </ul>
         </section>
